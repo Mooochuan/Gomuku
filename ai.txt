@@ -1,0 +1,8 @@
+1. Yes, it's more clever then just picking a random move.
+2. I designed an AI that use a white stone to fill every possible intersection and evaluate the whole board to
+   get a score and put the stone on the intersection with the highest score. However, it's not so smart.
+3. To have a score of the board situation, I calculated the number of some classic stone patterns such as live three,
+   sleep three, live two, etc. Each of these patterns have different influence on the whole score.
+4. The program now almost can't beat me.
+5. To improve the AI, I plan to use minimax algorithum in the future, by adjusting the depth of the tree, the
+   difficulty can easily be changed.
